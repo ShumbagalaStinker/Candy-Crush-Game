@@ -1,0 +1,55 @@
+.grid {
+  /* Makes the container a flexbox, enabling flexible layout */
+  /* Allows the items inside to wrap to the next line if they don't fit */
+  /* Sets the height of the grid container */
+  /* Sets the minimum width of the grid container */
+  /* Adds space on the left side of the grid */
+  /* Adds space above the grid */
+  /* Sets a semi-transparent background color */
+  /* Adds padding inside the grid container */
+  /* Sets the text color */
+  /* Rounds the corners of the grid */
+  /* Adds a shadow inside and outside the grid */
+}
+
+.grid div {
+  /* Sets the height of each grid cell to 70px*/
+  /* Sets the width of each grid cell to 70px*/
+}
+
+h3 {
+  /* Applies the 'Montserrat' font to <h3> */
+  /* Converts text to uppercase */
+}
+
+h1 {
+  /* Applies the 'Montserrat' font to <h1> */
+  /* Converts text to uppercase */
+  /* Moves the heading 10px up */
+}
+
+.invisible {
+  /* Makes elements with this class have a white background */
+}
+
+body {
+  /* Sets the background image of the body */
+  /* Limits the body width to the height of the viewport */
+  /* Uses flexbox layout for the body */
+}
+
+.scoreBoard {
+  /* Sets the background color to cyan */
+  /* Rounds the corners of the score board */
+  /* Adds space above the score board */
+  /* Adds space on the left of the score board */
+  /* Lets the width be determined by the content */
+  /* Sets the height of the score board */
+  /* Adds padding inside the score board */
+  /* Uses flexbox layout for the score board */
+  /* Arranges children (elements) vertically */
+  /* Distributes space between elements */
+  /* Aligns elements in the center horizontally */
+  /* Centers the text inside the score board */
+  /* Sets the text color */
+}
