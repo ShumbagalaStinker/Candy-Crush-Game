@@ -7,24 +7,32 @@ function candyCrushGame() {
     const grid = document.querySelector();
     // Selects the score display element
     inp = document.URL;
-    print(inp);
+    print(inp.normalize());
     // The grid's width is 8 squares (8x8 grid)
-        
+        const width = 8;
     // An array to hold all the squares in the grid
     // Initial score is 0
+    const scoreInitial = 0;
 
     //Array of the candy pictures
         // Red candy image
+        "url(utils/red-candy.png)"
         // Blue candy image
+        "url(utils/blue-candy.png)"
         // Green candy image
+        "url(utils/green-candy.png)"
         // Yellow candy image
+        "url(utils/yellow-candy.png)"
         // Orange candy image
+        "url(utils/orange-candy.png)"
         // Purple candy image
+        "url(utils/purple-candy.png)"
     
 
     // Creating Game Board function
     function createBoard() {
         // Loop to create an 8x8 grid
+        for(let i = 0)
             // Creates a new div element (square)
             // Allows the square to be draggable
             // Assigns a unique ID to each square
