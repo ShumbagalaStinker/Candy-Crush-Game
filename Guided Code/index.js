@@ -4,8 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function candyCrushGame() {
     // Selects the grid container
+    const grid = document.querySelector();
     // Selects the score display element
+    inp = document.URL;
+    print(inp);
     // The grid's width is 8 squares (8x8 grid)
+        
     // An array to hold all the squares in the grid
     // Initial score is 0
 
